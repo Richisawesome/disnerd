@@ -75,14 +75,19 @@ header .search {
     
 }
 
-#content .article .content-wrapper {
+#content .content-wrapper {
     display: grid;
     grid-template-columns: 25% 75%;
+    padding: 15px 15px 25px 15px;
+    margin: 15px;
+    border-bottom-style: solid;
+    border-width: thin;
+    border-color: gray;
 }
 
-#content .article .content-wrapper .content-thumbnail {
-    height: 250px;
-    width: 250px;
+#content .content-wrapper .content-thumbnail {
+   height: 250px;
+   width: 90%;
 }
 #content .sidebar-section {
     margin: 5px;
