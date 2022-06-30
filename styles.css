@@ -89,6 +89,11 @@ header .search {
    height: 250px;
    width: 90%;
 }
+
+#content .content-wrapper .summary{
+    width: 100%;
+}
+
 #content .sidebar-section {
     margin: 5px;
     padding: 5px;
@@ -96,8 +101,13 @@ header .search {
     background-color: #CCF2F4;
 }
 
+#content .sidebar-section .sidebar-title {
+    margin: 20px;
+    padding: 10px;
+}
 #content .sidebar-section .sidebar-item {
-    color: green;
+    margin: 20px;
+    padding: 10px;
 }
 
 /* footer */
