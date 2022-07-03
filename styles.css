@@ -122,10 +122,13 @@ footer .footer {
 #article-template {
     display: grid;
     grid-template-columns: 75% 25%;
-    width: 100%;
+    
     
 }
 
+/* #article-template .article {
+    
+} */
 #article-template .article-section {
     background-color: #CCF2F4;
     margin: 5px;
@@ -134,18 +137,15 @@ footer .footer {
     
 }
 
-#article-template .article-wrapper {
-    padding: 15px 15px 25px 15px;
-    margin: 15px;
-    border-bottom-style: solid;
-    border-width: thin;
-    border-color: gray;
-    
-}
 
-#article-template .article-wrapper .article-image {
+/* #article-template .article-section .article .article-title {
+    
+} */
+
+#article-template .article-section .article .article-image {
+   height: 400px;
+   width: 300px;
    
-   height: 500px;
 }
 
 /* #article-template .article-wrapper .article{
