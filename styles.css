@@ -126,9 +126,6 @@ footer .footer {
     
 }
 
-/* #article-template .article {
-    
-} */
 #article-template .article-section {
     background-color: #CCF2F4;
     margin: 5px;
@@ -136,22 +133,10 @@ footer .footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
-
-
-/* #article-template .article-section .article .article-title {
-    
-} */
-
 #article-template .article-section .article .article-image {
-   height: 400px;
-   width: 300px;
-   
+    max-width: 100%;
+    height: 350px;
 }
-
-/* #article-template .article-wrapper .article{
-    align-items: baseline;
-} */
-
 #article-template .sidebar-section {
     margin: 5px;
     padding: 5px;
